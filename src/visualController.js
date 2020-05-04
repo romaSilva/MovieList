@@ -12,29 +12,29 @@ export default class Visual {
         
     }
 
-    applyBorderColor = color => {
+    applyBorderColor(color) {
         document.querySelector(basic.elements.backgroundContainerUp).style.backgroundColor = color;
         document.querySelector(basic.elements.backgroundContainerRight).style.backgroundColor = color;
         document.querySelector(basic.elements.backgroundContainerDown).style.backgroundColor = color;
         document.querySelector(basic.elements.backgroundContainerLeft).style.backgroundColor = color;
     };
 
-    applyBackgroundImage = url => {
+    applyBackgroundImage(url) {
         document.querySelector(basic.elements.backgroundContainer).style.backgroundImage = `${url}`;
     };
 
-    applyHamburgerClasses = () => {
+    applyHamburgerClasses() {
         document.querySelector(basic.elements.hamburgerMenu).classList.toggle('open');
         document.querySelector(basic.elements.hamburgerIconContainer).classList.toggle('open');
     };
 
-    applySearchClasses = () => {
+    applySearchClasses() {
         document.querySelector(basic.elements.searchMenu).classList.remove('open');
         document.querySelector(basic.elements.searchMenu).classList.add('open');
         document.querySelector(basic.elements.searchInput).focus();
     };
 
-    removeSearchClasses = () => {
+    removeSearchClasses() {
         document.querySelector(basic.elements.searchMenu).classList.remove('open');
     };
 

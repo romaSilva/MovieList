@@ -3,7 +3,7 @@ export default class Omdb {
         this.key = '2744f713';
     }
 
-    searchOnOmdb = async searchInput => {
+     async searchOnOmdb(searchInput) {
         const searchResponse = await fetch(`http://www.omdbapi.com/?apikey=${this.key}&s=${searchInput}`)
         const parsedResponse = await searchResponse.json();
         

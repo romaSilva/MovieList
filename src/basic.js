@@ -23,12 +23,12 @@ export default class Basic {
         };
     }
 
-    getRandomColor = () => {
+    getRandomColor() {
         const randomNumber = Math.floor(Math.random() * 3);
         return this.colors[randomNumber];
     };
 
-    getRandomImage = () => {
+    getRandomImage() {
         const randomNumber = Math.floor(Math.random() * 6);
         return `url(../src/assets/img/bg${randomNumber}.jpg)`;;
     };
