@@ -1,5 +1,5 @@
-import Basic from '/basic.js';
-import Visual from '/visualController.js';
+import Basic from './basic.js';
+import Visual from './visualController.js';
 import UI from './uiController.js';
 import Omdb from './omdbController.js';
 

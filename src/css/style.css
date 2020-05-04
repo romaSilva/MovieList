@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sawarabi+Gothic&display=swap');
 
 @font-face {
-    src: url('./fonts/Berthold\ Akzidenz\ Grotesk\ Extended.otf');
+    src: url('../assets/fonts/Berthold\ Akzidenz\ Grotesk\ Extended.otf');
     font-family: atf;
 }
 
 @font-face {
-    src: url('./fonts/Akzidenz-grotesk-light.ttf');
+    src: url('../assets/fonts/Akzidenz-grotesk-light.ttf');
     font-family: atf-main;
 }
 

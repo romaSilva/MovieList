@@ -30,6 +30,6 @@ export default class Basic {
 
     getRandomImage = () => {
         const randomNumber = Math.floor(Math.random() * 6);
-        return `url(./img/bg${randomNumber}.jpg)`;;
+        return `url(../src/assets/img/bg${randomNumber}.jpg)`;;
     };
 }

@@ -1,4 +1,4 @@
-import Basic from '/basic.js';
+import Basic from './basic.js';
 
 const basic = new Basic();
 
