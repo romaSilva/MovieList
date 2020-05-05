@@ -18,12 +18,6 @@ const onLoad = e => {
     //apply the random color to the ui
     visual.applyBorderColor(randomColor);
 
-    //generate random image for the background
-    const randomImage = basic.getRandomImage();
-
-    //apply the random image to te UI
-    visual.applyBackgroundImage(randomImage);
-
 };
 
 const hamburgerClicked = e => {

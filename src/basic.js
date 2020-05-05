@@ -28,8 +28,4 @@ export default class Basic {
         return this.colors[randomNumber];
     };
 
-    getRandomImage() {
-        const randomNumber = Math.floor(Math.random() * 6);
-        return `url(../src/assets/img/bg${randomNumber}.jpg)`;
-    };
 }

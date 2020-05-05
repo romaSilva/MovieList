@@ -19,10 +19,6 @@ export default class Visual {
         document.querySelector(basic.elements.backgroundContainerLeft).style.backgroundColor = color;
     };
 
-    applyBackgroundImage(url) {
-        document.querySelector(basic.elements.backgroundContainer).style.backgroundImage = `${url}`;
-    };
-
     applyHamburgerClasses() {
         document.querySelector(basic.elements.hamburgerMenu).classList.toggle('open');
         document.querySelector(basic.elements.hamburgerIconContainer).classList.toggle('open');
