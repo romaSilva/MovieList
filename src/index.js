@@ -1,3 +1,4 @@
+import './css/style.css';
 import Basic from './basic.js';
 import Visual from './visualController.js';
 import UI from './uiController.js';
