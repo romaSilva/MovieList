@@ -1,5 +1,5 @@
 <h1 align="center">
-    Weather App
+    MovieList
 </h1>
 
 <p align="center">
