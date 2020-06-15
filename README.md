@@ -21,6 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - HTML5
 - CSS
+- Webpack
 
 ## 💻 Projeto
 
